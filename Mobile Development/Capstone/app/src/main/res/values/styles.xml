@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="CustomNotification" parent="@android:style/TextAppearance.StatusBar.EventContent">
+        <item name="android:textColor">@color/orange</item>
+        <item name="android:background">@color/orange</item>
+    </style>
+
+    <style name="CustomNotificationText" parent="TextAppearance.Compat.Notification">
+        <item name="android:textColor">@color/orange</item>
+    </style>
+
+    <style name="TextAppearance.AppCompat.Notification">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/orange</item>
+    </style>
+
+    <style name="CustomToolbarStyle" parent="Widget.AppCompat.Toolbar">
+        <item name="android:background">@color/orange</item> <!-- Warna latar belakang oranye -->
+        <item name="android:titleTextColor">@color/white</item> <!-- Warna teks putih -->
+        <item name="textFillColor">@color/white</item>
+        <item name="fontFamily">@font/poppinsbold</item>
+    </style>
+
+    <style name="CustomProgressBarStyle" parent="android:Widget.ProgressBar">
+        <item name="android:progressDrawable">@drawable/custom_progress_bar</item>
+        <item name="android:indeterminateTint">#FFA500</item> <!-- Warna oranye -->
+    </style>
+
+    <style name="CustomButton" parent="android:Widget.Button">
+        <item name="android:tint">#FFA500</item>
+        <item name="backgroundColor">#FFA500</item>
+        <item name="backgroundTint">#FFA500</item>
+        <item name="fontFamily">@font/poppinsmedium</item>
+        <item name="strokeColor">#FFA500</item>
+        <item name="android:fillColor">#FFA500</item>
+        <item name="textFillColor">@color/white</item>
+        <item name="android:titleTextColor">@color/white</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+</resources>

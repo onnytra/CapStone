@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ComCheckApp</string>
+    <string name="str_name">Name</string>
+    <string name="str_uploaded">Uploaded on %1$s</string>
+    <string name="str_emote_sad">Kata Kata Hari Ini</string>
+    <string name="str_there_is_no_story">KATA KATA HARI INI</string>
+    <string name="str_add_story">Add Coms</string>
+    <string name="str_upload_img_story">Upload Image</string>
+    <string name="str_image_story">Image Coms</string>
+    <string name="str_choose_image">Choose Image</string>
+</resources>
